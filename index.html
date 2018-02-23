@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link  href="main.css" type="text/css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" /> 
+	<title>Calculator App</title>
+
+</head>
+<body>	
+	<div id="body_container"> 
+		
+		<div id="navBarTop">
+			<nav class="navbar navbar-fixed-top navbar-custom">
+    			<span> 
+    				<h2 id="header">Calculator App</h2>
+				</span>
+			</nav>
+		</div>
+			
+		<div id="calc_contain">
+			<form id="calc" name="calc">
+				<input type="text" name="answer" id="answer_box" />
+				<br>
+				<input class="button" id="DEL" type="button" value=" DEL " onclick="del()"/>
+				<input class="button" id="C" type="button" value=" C " onclick="calc.answer.value = '' "/> 
+				<input class="button" type="button" value=" +/- " onclick="plus_mine()"/>
+				<input class="button" type="button" value=" / " onclick="calc.answer.value += '/' "/>
+				<br>
+				<input class="button" type="button" value=" 7 " onclick="calc.answer.value += '7' "/>
+				<input class="button" type="button" value=" 8 " onclick="calc.answer.value += '8' "/>
+				<input class="button" type="button" value=" 9 " onclick="calc.answer.value += '9' "/>
+				<input class="button" type="button" value=" x " onclick="calc.answer.value += '*' "/>
+				<br>
+				<input class="button" type="button" value=" 4 " onclick="calc.answer.value += '4' "/>
+				<input class="button" type="button" value=" 5 " onclick="calc.answer.value += '5' "/>
+				<input class="button" type="button" value=" 6 " onclick="calc.answer.value += '6' "/>
+				<input class="button" type="button" value=" - " onclick="calc.answer.value += '-' "/>
+				<br>
+				<input class="button" type="button" value=" 1 " onclick="calc.answer.value += '1' "/>
+				<input class="button" type="button" value=" 2 " onclick="calc.answer.value += '2' "/>
+				<input class="button" type="button" value=" 3 " onclick="calc.answer.value += '3' "/>
+				<input class="button" type="button" value=" + " onclick="calc.answer.value += '+' "/>
+				<br>
+				<input class="button" type="button" value=" 0 " onclick="calc.answer.value += '0' "/>
+				<input class="button" type="button" value=" . " onclick="calc.answer.value += '.' " />
+				<input class="button" id="eq" type="button" value=" = " onclick="solve()" />
+				<br>
+			</form>
+
+		</div>
+	</div>	
+
+<footer>
+		<div>
+			<nav class="navbar navbar-custon navbar-fixed-bottom" id="navBarBottom">
+    			<span> 
+    				Copyright © 2018 Nolan Kuenzi. All rights reserved. Made for the freeCodeCamp Development Challenge: Build a JavaScript Calculator.
+				</span>
+			</nav>
+		</div>
+</footer>
+	<script type="text/javascript" src="fcc_calc.js"></script>
+</body>
+</html>
