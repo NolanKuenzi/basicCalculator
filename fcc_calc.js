@@ -1,9 +1,9 @@
 
-let del = () => {
+const del = () => {
     calc.answer.value = calc.answer.value.replace(calc.answer.value[calc.answer.value.length-1], "");
 };
 
-let plus_mine = () => {
+const plus_mine = () => {
     if (Math.sign(calc.answer.value[0]) === 1 || calc.answer.value === "") {
         calc.answer.value = "-" + calc.answer.value;
     } else {
@@ -11,7 +11,7 @@ let plus_mine = () => {
     }
 };
 
-let solve = () => {
+const solve = () => {
     if (calc.answer.value === "") {
         alert("Please Enter Values to Calculate");
     } else {
