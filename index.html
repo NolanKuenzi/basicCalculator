@@ -8,16 +8,14 @@
 </head>
 <body>	
 	<div id="body_container"> 
-		
 		<div id="header">
     		<h1 id="header">Calculator App</h1>
 		</div>
-			
 		<div id="calc_contain">
 			<form id="calc" name="calc">
 				<input type="text" name="answer" id="answer_box" />
 				<br>
-				<input class="button" id="DEL" type="button" value=" DEL " onclick="del()"/>
+				<input class="button" id="DEL" type="button" value=" D " onclick="del()"/>
 				<input class="button" id="C" type="button" value=" C " onclick="calc.answer.value = '' "/> 
 				<input class="button" type="button" value=" +/- " onclick="plus_mine()"/>
 				<input class="button" type="button" value=" / " onclick="calc.answer.value += '/' "/>
@@ -42,13 +40,12 @@
 				<input class="button" id="eq" type="button" value=" = " onclick="solve()" />
 				<br>
 			</form>
-
 		</div>
 	</div>	
-	<footer>
+		<footer>
 		<div id="footer">
     		Copyright © 2018 Nolan Kuenzi. Made for the freeCodeCamp Development Challenge: Build a JavaScript Calculator.
-		</div>
+    	</div>
 	</footer>
 	<script type="text/javascript" src="./public/index.js"></script>
 </body>

@@ -1,14 +1,20 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+#body_container {
+	position: relative;
+	min-height: 100%;
+}
+
 #header {
 	color: rgb(230, 0, 0);
 	overflow: hidden;
 	text-align: center;
-}
-
-
-nav {
-	text-align: center;
-	color: black;
-	height: 4em;
 }
 
 #calc_contain {
@@ -21,7 +27,7 @@ nav {
     width: 24em;
     height: 36.5em;
     padding-top: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     padding-left: 0.5em;
     padding-right: 0.5em;
 
@@ -48,7 +54,6 @@ nav {
 	padding: 0em;
 	background-color: black;
 	color: white;
-	font-size: 1em;
 	text-align: center;
 	border-style: groove;
 	border-color: white;
@@ -73,8 +78,8 @@ nav {
 }
 
 footer {
-	overflow: hidden;
-    position: fixed;
+	position: relative;
+	margin-top: -1.5em;
     text-align: center;
     bottom: 0;
     width: 100%;	
