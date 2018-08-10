@@ -17,20 +17,22 @@ body {
 	text-align: center;
 }
 
+#content {
+	padding-bottom: 9em;
+}
+
 #calc_contain {
+	position: relative;
 	margin-left: auto;
     margin-right: auto;
-    position: relative;
     top: 2em;
     text-align: center;
     background-color: rgb(230, 0, 0);
     width: 24em;
     height: 36.5em;
     padding-top: 2em;
-    padding-bottom: 2em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-
 }
 
 #answer_box {
@@ -65,7 +67,6 @@ body {
 .button:active {
   background-color: red;
   box-shadow: none;
-
   transform: translateY(.3em);
 }
 
@@ -77,9 +78,9 @@ body {
 	width: 8.3em;
 }
 
-footer {
+#footer {
 	position: relative;
-	margin-top: -1.5em;
+	margin-top: -2.5em;
     text-align: center;
     bottom: 0;
     width: 100%;	
