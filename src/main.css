@@ -1,67 +1,67 @@
 html {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	height: 100%;
+  height: 100%;
 }
 
 #body_container {
-	position: relative;
-	min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 #header {
-	color: rgb(230, 0, 0);
-	overflow: hidden;
-	text-align: center;
+  color: rgb(230, 0, 0);
+  overflow: hidden;
+  text-align: center;
 }
 
 #content {
-	padding-bottom: 9em;
+  padding-bottom: 9em;
 }
 
 #calc_contain {
-	position: relative;
-	margin-left: auto;
-    margin-right: auto;
-    top: 2em;
-    text-align: center;
-    background-color: rgb(230, 0, 0);
-    width: 24em;
-    height: 36.5em;
-    padding-top: 2em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 2em;
+  text-align: center;
+  background-color: rgb(230, 0, 0);
+  width: 24em;
+  height: 36.5em;
+  padding-top: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 #answer_box {
-	pointer-events:none;
-	margin-bottom: .6em;
-	padding-top: 0.5em;
-	padding-left: 0.65em;
-	padding-right: 0.7em;
-	text-align: right;
-	font-size: 1.5em;
-	position: relative;
-	width: 13em;
-	height: 2.2em;
+  pointer-events:none;
+  margin-bottom: .6em;
+  padding-top: 0.5em;
+  padding-left: 0.65em;
+  padding-right: 0.7em;
+  text-align: right;
+  font-size: 1.5em;
+  position: relative;
+  width: 13em;
+  height: 2.2em;
 }
 
 .button {
-	margin-top: .4em;
-	margin-bottom: .4em;
-	margin-right: .2em;
-	margin-left: .2em;
-	padding: 0em;
-	background-color: black;
-	color: white;
-	text-align: center;
-	border-style: groove;
-	border-color: white;
-	height: 4.5em;
-	width: 4em;
-	font-size: 1.1em;
+  margin-top: .4em;
+  margin-bottom: .4em;
+  margin-right: .2em;
+  margin-left: .2em;
+  padding: 0em;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-style: groove;
+  border-color: white;
+  height: 4.5em;
+  width: 4em;
+  font-size: 1.1em;
 }
 
 .button:active {
@@ -71,17 +71,17 @@ body {
 }
 
 .button:focus { 
-	outline: 0;
+  outline: 0;
 }
 
 #eq {
-	width: 8.3em;
+  width: 8.3em;
 }
 
 #footer {
-	position: relative;
-	margin-top: -4em;
-    text-align: center;
-    bottom: 0;
-    width: 100%;	
+  position: relative;
+  margin-top: -4em;
+  text-align: center;
+  bottom: 0;
+  width: 100%;	
 }
